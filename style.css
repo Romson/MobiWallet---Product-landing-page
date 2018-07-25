@@ -1,0 +1,146 @@
+/* headerTop styling */
+#headerTop {
+    background-color: #0D0D17 !important;
+}
+
+@media screen and (max-width: 568px) {
+    #headerTop ul {
+        display: none !important;
+    }
+
+    #underNavbarSection {
+        width: 100vw !important;
+    }
+
+    .underNavbarRow {
+        width: 100% !important;
+    }
+
+    .headerOne {
+        font-size: 34px !important;
+        line-height: 48px !important;
+        width: 100vw !important;
+        margin-top: 140px !important;
+    }
+
+    .appStoreImages {
+        display: inline-block;
+        inline-size: 50%;
+    }
+
+    .imageMobileWallet {
+        display: none !important;
+    }
+}
+
+#headerTop ul {
+    list-style: none outside;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.contactDetails li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 20px 0;
+}
+
+.underNavbarRow li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+li.phone, li.mail {
+    color: #01A0E1;
+}
+
+.fontIcons {
+    margin-right: .2em;
+    color: #ffffff;
+}
+
+/* headerNavbar styling */
+#underNavbarSection {
+    background-image: url('https://themes.muffingroup.com/be/wallet/wp-content/uploads/2016/10/home_wallet_slider_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: inherit;
+    z-index: -2;
+    margin-top: -90px;
+}
+
+.navbar {
+    /* background-color: rgba(18, 19, 47, 0.185) !important; */
+    background: rgba(0, 0, 0, 0.2) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    height: 90px;
+    border-bottom: 1px solid #fff;
+    z-index: 20;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    padding-left: 25px;
+    font-weight: 600;
+}
+
+a.nav-link {
+    color: #ffffff !important;
+    text-transform: uppercase;
+}
+
+ul.navbar-nav li {
+    padding-right: 40px;
+}
+
+ul.navbar-nav {
+    margin-right: 160px;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+}
+
+.headerOne {
+    z-index: 6;
+    white-space: nowrap;
+    visibility: inherit;
+    transition: none;
+    text-align: left;
+    line-height: 68px;
+    border-width: 0px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    letter-spacing: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+    color: rgba(255,255,255,1.00);
+}
+
+.imageMobileWallet {
+    width: 815px;
+    height: 702px;
+    transition: none;
+    text-align: left;
+    line-height: 0px;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
