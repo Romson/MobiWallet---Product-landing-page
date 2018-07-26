@@ -32,7 +32,7 @@
     }
 
     .appStoreImages {
-        display: inline-block;
+        display: inline-block !important;
         width: 50%;
         margin-bottom: 60px;
     }
@@ -54,7 +54,7 @@
     padding: 20px 0;
 }
 
-.underNavbarRow li {
+.appStoreImages li {
     display: inline-block;
     margin-right: 10px;
 }
@@ -157,7 +157,7 @@ ul.navbar-nav {
 }
 
 /* aboutSection styling */
-#aboutSection {
+#aboutSection, #cashFlow {
     background-color: #f0f1f3 !important;
 }
 
@@ -165,6 +165,12 @@ ul.navbar-nav {
     width: 80% !important;
     margin: auto !important;
     background-color: #fff !important;
+}
+
+.cashFlowDiv {
+    width: 80% !important;
+    margin: auto !important;
+    padding-top: 70px !important;
 }
 
 .colUnderRow {background-color: #f0f1f3 !important;
@@ -195,5 +201,16 @@ h5 {
 }
 
 .icons {
-padding-top: 30px;
+    padding-top: 30px;
+}
+
+.iconsBottom {
+    padding-bottom: 50px;
+}
+
+/* cashFlow section styling */
+.cashFlowImage {
+    max-width: 100%;
+    height: auto;
+    padding-top: 40px;
 }
