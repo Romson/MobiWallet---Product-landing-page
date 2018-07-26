@@ -167,7 +167,7 @@ ul.navbar-nav {
     background-color: #fff !important;
 }
 
-.colUnderRow {
+.colUnderRow {background-color: #f0f1f3 !important;
     background-color: #fff !important;
     margin: -50px 0 5px 0;
     padding-top: 70px;
