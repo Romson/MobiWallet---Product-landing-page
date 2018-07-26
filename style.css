@@ -162,15 +162,15 @@ ul.navbar-nav {
 }
 
 .aboutSectionRow {
-    width: 80%;
-    margin: auto;
+    width: 80% !important;
+    margin: auto !important;
     background-color: #fff !important;
 }
 
 .colUnderRow {background-color: #f0f1f3 !important;
     background-color: #fff !important;
-    margin: -50px 0 5px 0;
-    padding-top: 70px;
+    margin: -50px 0 5px 0 !important;
+    padding-top: 70px !important;
 }
 
 .headerTwo {
