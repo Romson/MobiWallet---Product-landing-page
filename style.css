@@ -23,9 +23,18 @@
         margin-top: 140px !important;
     }
 
+    .headerTwo {
+        font-size: 22px !important; 
+    }
+
+    .headerTwoText {
+        padding: 0 20px !important;
+    }
+
     .appStoreImages {
         display: inline-block;
-        inline-size: 50%;
+        width: 50%;
+        margin-bottom: 60px;
     }
 
     .imageMobileWallet {
@@ -51,7 +60,7 @@
 }
 
 li.phone, li.mail {
-    color: #01A0E1;
+    color: #3e6edf;
 }
 
 .fontIcons {
@@ -134,6 +143,7 @@ ul.navbar-nav {
 .imageMobileWallet {
     width: 815px;
     height: 702px;
+    object-fit: cover;
     transition: none;
     text-align: left;
     line-height: 0px;
@@ -143,4 +153,47 @@ ul.navbar-nav {
     letter-spacing: 0px;
     font-weight: 400;
     font-size: 16px;
+    z-index: 1;
+}
+
+/* aboutSection styling */
+#aboutSection {
+    background-color: #f0f1f3 !important;
+}
+
+.aboutSectionRow {
+    width: 80%;
+    margin: auto;
+    background-color: #fff !important;
+}
+
+.colUnderRow {
+    background-color: #fff !important;
+    margin: -50px 0 5px 0;
+    padding-top: 70px;
+}
+
+.headerTwo {
+    color: #3e6edf;
+    font-size: 38px;
+}
+
+.headerTwoText {
+    padding: 0 100px;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+.aboutText {
+    color: #808080;
+    font-size: 16px;
+}
+
+.icons {
+padding-top: 30px;
 }
