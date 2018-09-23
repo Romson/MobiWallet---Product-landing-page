@@ -1,4 +1,10 @@
 /* headerTop styling */
+/*
+body {
+    width: 100vw !important;
+}
+*/
+
 #headerTop {
     background-color: #0D0D17 !important;
 }
@@ -213,4 +219,15 @@ h5 {
     max-width: 100%;
     height: auto;
     padding-top: 40px;
+}
+
+#contact {
+    margin-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f0f1f3;
+}
+
+.formCenter {
+    width: 40% !important;
+    margin: auto !important;
 }

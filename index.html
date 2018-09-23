@@ -25,25 +25,25 @@
         </section>
         <!--navbar-->
         <section id="headerSection">
-            <header id="headerNavbarSection">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">MOBIWALLET</a>
+            <header id="header">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="nav-bar">
+                    <a class="navbar-brand" href="#"><img id="header-img" src="https://images.vexels.com//media/users/3/137122/isolated/lists/76f47ff326910503ef5b55d34fbd840f-wifi-mobile-screen.png" alt="logo" width="30%"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home<span class="sr-only">(current)   </span></a>
+                                <a class="nav-link" href="#header">Home<span class="sr-only">(current)   </span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#aboutSection">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="#pricing">Pricing</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -159,10 +159,50 @@
                 </figure>
             </div>
         </section>
+
+        <section id="pricing">
+            <div class="cashFlowDiv text-center">
+                <h2 class="headerTwo">Lorem Ipsum Dolor Sit Amet</h2>
+                <p class="headerTwoText">
+                    Cum omnis etiam potest non prohibere eum. Tales detestabilis mulieribus.
+                </p>
+            </div>
+            <div class="cashFlowImageDiv text-center">
+                <video id="video" width="760" height="415" controls>
+                    <source src="vid/Mobile Wallets  All You Need to Know.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="cashFlowDiv text-center">
+                <h2 class="headerTwo">Lorem Ipsum Contact</h2>
+                <p class="headerTwoText">
+                    Contact omnis etiam potest non prohibere eum.
+                </p>
+            </div>
+            <div class="cashFlowImageDiv text-center formCenter">
+                
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Name</label>
+                      <input type="text" class="form-control" placeholder="Full Name">
+                    </div>
+                    <input type="submit" id="submit" class="btn btn-primary float-left">
+                  </form>
+
+            </div>
+        </section>
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>      
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>    
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>  
         <script src="script.js" async defer></script>
     </body>
 </html>
